@@ -1,0 +1,64 @@
+
+
+
+.academy-header {
+  background-color: $header-grey;
+  height: 56px;
+  
+  h1 {
+    float: left;
+    width: 200px;
+  }
+  
+  nav {
+    float: right;
+    width: 50%;
+    color: $off-white;
+    font-size: 13px;
+    height: 56px;
+    line-height: 15.6px;
+    width: 100%;
+    
+    a {
+      color: $off-white;
+      text-decoration: none;
+    }
+  }
+}
+
+.courses-header {
+  border-bottom: 4px solid #383434;
+  height: 48px;
+  background-color: $light-grey;
+  
+  nav a {
+    color: #535353;
+    font-size: 18px;
+    line-height: 21.6px;
+  }
+}
+
+
+
+
+
+.page-wrapper {
+  border: 1px solid gray;
+  
+  
+  div {
+    margin: 8px;
+  }
+
+  div {
+    margin: 16px;
+  }
+
+  
+}
+
+
+
+/*240px to 399px Feature Phone */
+/*400px to 599px Smart Phone */
+/*600px to 1007px Tablet */

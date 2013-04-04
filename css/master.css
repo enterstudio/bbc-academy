@@ -1,0 +1,606 @@
+/* normalize.css v1.1.0 | MIT License | git.io/normalize */
+/* line 2, ../sass/_normalize.min.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+html, button, input, select, textarea {
+  font-family: sans-serif;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+body {
+  margin: 0;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+a:active, a:hover {
+  outline: 0;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+h2 {
+  font-size: 1.5em;
+  margin: .83em 0;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+h5 {
+  font-size: .83em;
+  margin: 1.67em 0;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+h6 {
+  font-size: .67em;
+  margin: 2.33em 0;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+b, strong {
+  font-weight: bold;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+blockquote {
+  margin: 1em 40px;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+p, pre {
+  margin: 1em 0;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+code, kbd, pre, samp {
+  font-family: monospace,serif;
+  _font-family: 'courier new',monospace;
+  font-size: 1em;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+q {
+  quotes: none;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+dl, menu, ol, ul {
+  margin: 1em 0;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+dd {
+  margin: 0 0 0 40px;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+menu, ol, ul {
+  padding: 0 0 0 40px;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+nav ul, nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+figure {
+  margin: 0;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+form {
+  margin: 0;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: .35em .625em .75em;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+button, input, select, textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+button, input {
+  line-height: normal;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+button, select {
+  text-transform: none;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+  *overflow: visible;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+button[disabled], html input[disabled] {
+  cursor: default;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *height: 13px;
+  *width: 13px;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 2, ../sass/_normalize.min.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+/* line 9, ../sass/_main.scss */
+html,
+button,
+input,
+select,
+textarea {
+  color: #222;
+}
+
+/* line 13, ../sass/_main.scss */
+body {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/* line 18, ../sass/_main.scss */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 23, ../sass/_main.scss */
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 28, ../sass/_main.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 37, ../sass/_main.scss */
+img {
+  vertical-align: middle;
+}
+
+/* line 41, ../sass/_main.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 47, ../sass/_main.scss */
+textarea {
+  resize: vertical;
+}
+
+/* line 51, ../sass/_main.scss */
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/* line 96, ../sass/_main.scss */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+}
+
+/* line 103, ../sass/_main.scss */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+/* line 110, ../sass/_main.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 115, ../sass/_main.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 127, ../sass/_main.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 136, ../sass/_main.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 141, ../sass/_main.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 146, ../sass/_main.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 150, ../sass/_main.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+@media print {
+  /* line 159, ../sass/_main.scss */
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 167, ../sass/_main.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 171, ../sass/_main.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 175, ../sass/_main.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links for images, or javascript/internal links
+   */
+  /* line 185, ../sass/_main.scss */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 190, ../sass/_main.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 195, ../sass/_main.scss */
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */
+  }
+
+  /* line 200, ../sass/_main.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 204, ../sass/_main.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 214, ../sass/_main.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 220, ../sass/_main.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+/* line 4, ../sass/_layout.scss */
+.academy-header {
+  background-color: #333030;
+  height: 56px;
+}
+/* line 8, ../sass/_layout.scss */
+.academy-header h1 {
+  float: left;
+  width: 200px;
+}
+/* line 13, ../sass/_layout.scss */
+.academy-header nav {
+  float: right;
+  width: 50%;
+  color: #f1f0ec;
+  font-size: 13px;
+  height: 56px;
+  line-height: 15.6px;
+  width: 100%;
+}
+/* line 22, ../sass/_layout.scss */
+.academy-header nav a {
+  color: #f1f0ec;
+  text-decoration: none;
+}
+
+/* line 29, ../sass/_layout.scss */
+.courses-header {
+  border-bottom: 4px solid #383434;
+  height: 48px;
+  background-color: #f1f0ec;
+}
+/* line 34, ../sass/_layout.scss */
+.courses-header nav a {
+  color: #535353;
+  font-size: 18px;
+  line-height: 21.6px;
+}
+
+/* line 45, ../sass/_layout.scss */
+.page-wrapper {
+  border: 1px solid gray;
+}
+/* line 49, ../sass/_layout.scss */
+.page-wrapper div {
+  margin: 8px;
+}
+/* line 53, ../sass/_layout.scss */
+.page-wrapper div {
+  margin: 16px;
+}
+
+/*240px to 399px Feature Phone */
+/*400px to 599px Smart Phone */
+/*600px to 1007px Tablet */
+/* line 1, ../sass/_fonts.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 5, ../sass/_fonts.scss */
+h1 {
+  margin: 0;
+}
+
+/* line 9, ../sass/_fonts.scss */
+h1, h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
+/* line 13, ../sass/_fonts.scss */
+h1 {
+  color: #f1f0ec;
+  font-size: 32px;
+  font-weight: 100;
+  line-height: 38.4px;
+  text-transform: uppercase;
+}
+
+/* line 21, ../sass/_fonts.scss */
+h2 {
+  color: #535353;
+  font-size: 18px;
+  line-height: 21.6px;
+}
